@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+    margin: 50px auto;
+}
+.box{
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    border:1px solid black ;
+    background-color: #ebe154;
+    border-radius: 5px;
+}
+.small{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 20px;
+    width: 100px;
+}
